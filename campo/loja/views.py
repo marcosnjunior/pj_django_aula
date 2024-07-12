@@ -1,11 +1,14 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Produto
 
 # Create your views here.
 
+
 def pesquisar(request):
-    print("Opa Chegou aqui")
-    return HttpResponse("Estou no Pesquisar")
+
+    resultado = Produto.objects.filter(nome__contains='banana', preco=20, quantidade__gt=0)
+    return HttpResponse(resultado)
 
 
 def cadastrar(request):
