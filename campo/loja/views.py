@@ -16,7 +16,7 @@ def cadastrar(request):
 
 
 def deletar(request):
-    print("Chegou no deletar")
+    print("Chegou no deletar EU SÓ VOU MEXER NO DELETAR")
 
 
 def atualizar(request):
