@@ -12,7 +12,7 @@ def pesquisar(request):
 
 
 def cadastrar(request):
-    print("Chegou no cadastrar")
+    print("Chegou no cadastrar tes")
 
 
 def deletar(request):
