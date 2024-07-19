@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-# Apenas testa novamente
+# Apenas testa novamente ne que funciona
 
 class Produto(models.Model):
 
