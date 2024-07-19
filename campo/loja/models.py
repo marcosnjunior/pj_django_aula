@@ -4,6 +4,8 @@ from django.db import models
 
 # Apenas testa novamente ne que funciona
 
+# tentando alterar a branch defaut master
+
 class Produto(models.Model):
 
     nome = models.CharField(max_length=100)
